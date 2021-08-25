@@ -1,0 +1,55 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.button{
+background-color: rgb(41, 101, 168);
+color: white;
+font-weight: bold;
+border: black solid 1px;
+border-radius:4px;
+padding: 2px;
+}
+
+.coach-answer{
+left-border: grey 4px solid;
+font-weight: bold;
+
+}
+.role{
+  font-style: italic;
+}
+.you-block {
+  border-left: rgb(230, 230, 230) solid 5px;
+  padding: 5px;
+  margin: 16px;
+}
+
+.coach-block {
+  background-color: rgb(254, 254, 218);
+  border-left: rgb(230, 230, 230) solid 5px;
+  padding: 5px;
+  margin: 16px;
+  width: 40%;
+}
+
+
+// bunch of css provided in the challenge
+ a {
+   color: grey;
+   &:hover {
+     color: black;
+   }
+ }
+
+  .banner {
+   background: red;
+   h1 {
+     font-size: 50px;
+   }
+ }
+
+  $gray: #F4F4F4;
+
+ body {
+   background: $gray; // Using this variable
+ }
